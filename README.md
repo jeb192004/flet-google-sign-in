@@ -1,7 +1,7 @@
 # flet-google-sign-in
 Method to sign in via Google Oauth in flet mobile apps
 
-Usage
+Usage<br>
 Import MyGoogleOauth
 ```
 from google_oauth import MyGoogleOauth
