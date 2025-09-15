@@ -32,3 +32,6 @@ f"state={session_token}"
 Google will return this with their code in the redirect url.
 <br><br>
 I saved the session token from the state parameter with the code from Google temporarily in my database.  Then as I returned to the flet app on_app_lifecycle_state_change gets triggered and if on_app_lifecycle_state_change state is RESUME I send a request to the server with the session token, matching the token to the one saved in the database with the code and exchange that for the user data.
+
+
+This is a single-file Python script. You can freely copy and use it in your own projects.
